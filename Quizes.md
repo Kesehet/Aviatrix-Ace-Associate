@@ -1,4 +1,4 @@
-# AVIATRIX Certified Engineer Quiz Answers
+# AVIATRIX Certified Engineer Quiz Answers - ACE Associate
 
 
 
@@ -183,8 +183,6 @@
 
 
 
-https://videos-cloudfront-usp.jwpsrv.com/64d0f591_388518322965124919e07a918847715bdfd85df1/site/Lc4Rn1s0/media/7Gq5yITf/version/7Gq5yITf/manifest.ism/manifest-audio_eng=112001-video_eng=64616.m3u8
-
 ## OCI Networking 101
 
 **Question**: What are virtual cloud networks called in OCI?  
@@ -219,7 +217,6 @@ https://videos-cloudfront-usp.jwpsrv.com/64d0f591_388518322965124919e07a91884771
 
 
 
-https://videos-cloudfront-usp.jwpsrv.com/64d0f71c_e603791c946da4637bd8c45647c4618e0a470053/site/Lc4Rn1s0/media/XUXbTT11/version/XUXbTT11/manifest.ism/manifest-audio_eng=112002-video_eng=69596.m3u8
 
 ## Multi-Cloud Network Architecture
 
@@ -276,9 +273,6 @@ https://videos-cloudfront-usp.jwpsrv.com/64d0f71c_e603791c946da4637bd8c45647c461
 
 
 
-
-
-https://videos-cloudfront-usp.jwpsrv.com/64d0f803_60568c2c1810aefe703aa89c30902f0d9e609344/site/Lc4Rn1s0/media/W3xREpor/version/W3xREpor/manifest.ism/manifest-audio_eng=112001-video_eng=61676.m3u8
 
 ## Aviatrix Platform Feature Overview - Part 1
 
@@ -343,9 +337,6 @@ https://videos-cloudfront-usp.jwpsrv.com/64d0f803_60568c2c1810aefe703aa89c30902f
 **Answer**: All of the above
 
 
-
-
-https://videos-cloudfront-usp.jwpsrv.com/64d0f989_63a7ac1fed339ca2e6e2943474ac45784c3717fd/site/Lc4Rn1s0/media/ld801cOq/version/ld801cOq/manifest.ism/manifest-audio_eng=112001-video_eng=66543.m3u8
 
 ## Feature Overview - Part 2
 
@@ -412,14 +403,10 @@ https://videos-cloudfront-usp.jwpsrv.com/64d0f989_63a7ac1fed339ca2e6e2943474ac45
 
 
 
-https://videos-cloudfront-usp.jwpsrv.com/64d0faac_18c93e744d2d955b9e4ac7b9036dc259cd2ab18a/site/Lc4Rn1s0/media/8eyhGiLn/version/8eyhGiLn/manifest.ism/manifest-audio_eng=112000-video_eng=91921.m3u8
-
 ## UI Walkthrough
 
 
 
-
-https://videos-cloudfront-usp.jwpsrv.com/64d0fad2_d941c05c90ca9308a6d3a01881efa1279e1d4b14/site/Lc4Rn1s0/media/a3maFHeO/version/a3maFHeO/manifest.ism/manifest-audio_eng=112001-video_eng=72033.m3u8
 
 ##Day 2 Operations
 
