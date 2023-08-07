@@ -1,5 +1,9 @@
 # AVIATRIX Certified Engineer Quiz Answers
 
+
+
+
+
 ## About Aviatrix
 
 **Question**: Where is the ‘center of gravity’ in the new computing model?  
@@ -32,6 +36,11 @@
 **Question**: True or false: Cloud providers can easily help customers in multi-cloud deployments.  
 **Answer**: False
 
+
+
+
+
+
 ## Networking Principles in the Cloud
 
 **Question**: What is the definition of a PaaS Service?  
@@ -63,6 +72,10 @@
 
 **Question**: One advantage of availability zones includes:  
 **Answer**: Resources across AZs can survive a data center outage
+
+
+
+
 
 ## AWS Networking 101
 
@@ -98,3 +111,76 @@
 
 **Question**: True or false: There are currently no limitations to the number of routes supported in AWS Transit Gateway.  
 **Answer**: False
+
+
+
+## Azure Networking 101
+
+**Question**: What is the private circuit term in Azure that is analogous to Direct Connect in AWS?  
+**Answer**: ExpressRoute
+
+**Question**: What are Virtual Network Gateways used for?  
+**Answer**: Hybrid Connectivity termination constructs for VPN or Express Route
+
+**Question**: Which Azure component groups items together for better organization control of a specific workload?  
+**Answer**: Resource Group
+
+**Question**: What is the top level organizational structure in Azure?  
+**Answer**: AD Tenant
+
+**Question**: True or false: In Azure, subnets are created as either private or public.  
+**Answer**: False
+
+**Question**: Some challenges with Azure Virtual WAN as a platform include:  
+**Answer**: All of the above
+
+**Question**: An ExpressRoute circuit in Azure can terminate on which device (select all that apply)  
+**Answer**: ExpressRoute Gateway, Virtual Network Gateway
+
+**Question**: True or false: Using ExpressRoute hairpinning for spoke to spoke traffic is the recommended option for transit within Azure.  
+**Answer**: False
+
+**Question**: What is an NVA in Azure (select all that apply)  
+**Answer**: Any 3rd party device in the Azure marketplace, Network Virtual Appliance
+
+**Question**: Challenges with using an NVA to provide spoke to spoke communication in Azure include: (select all that apply)  
+**Answer**: User Defined Route Management at scale, SNAT required for traffic symmetry
+
+
+
+## GCP Networking 101
+
+**Question**: GCP private dedicated connectivity is referred to as  
+**Answer**: Cloud Interconnect
+
+**Question**: True or false: All resources within GCP are either Global or Regional or both.  
+**Answer**: False
+
+**Question**: A Virtual Machine is an example of a  
+**Answer**: Zonal Resource
+
+**Question**: A VPC is an example of a:  
+**Answer**: Global Resource
+
+**Question**: For a single user, GCP resources are structurally organized in a:  
+**Answer**: Project
+
+**Question**: True or false: GCP encourages deployments of multiple VPCs to spread out all your workloads.  
+**Answer**: False
+
+**Question**: What does Auto Mode in GCP mean?  
+**Answer**: subnets are created in each region
+
+**Question**: True or false: GCP supports dynamic routes within the cloud.  
+**Answer**: True
+
+**Question**: True or false: VPC peering in GCP allows VPC to be transitive.  
+**Answer**: False
+
+**Question**: A project can access another project’s resource via (select all that apply)  
+**Answer**: Shared VPC, VPC Peering
+
+
+
+
+
