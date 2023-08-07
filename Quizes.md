@@ -156,9 +156,6 @@
 **Question**: True or false: All resources within GCP are either Global or Regional or both.  
 **Answer**: False
 
-**Question**: A Virtual Machine is an example of a  
-**Answer**: Zonal Resource
-
 **Question**: A VPC is an example of a:  
 **Answer**: Global Resource
 
@@ -179,6 +176,292 @@
 
 **Question**: A project can access another project’s resource via (select all that apply)  
 **Answer**: Shared VPC, VPC Peering
+
+**Question**: What are the caveats of a Global VPC design in GCP?
+**Answer**: All of the above
+
+
+
+
+https://videos-cloudfront-usp.jwpsrv.com/64d0f591_388518322965124919e07a918847715bdfd85df1/site/Lc4Rn1s0/media/7Gq5yITf/version/7Gq5yITf/manifest.ism/manifest-audio_eng=112001-video_eng=64616.m3u8
+
+## OCI Networking 101
+
+**Question**: What are virtual cloud networks called in OCI?  
+**Answer**: VCN
+
+**Question**: True or false: OCI subnets can be tied to one or all Availability Domains in the region.  
+**Answer**: True
+
+**Question**: True or false: DRG supports exactly 2 types of attachments: VCN and FastConnect.  
+**Answer**: False
+
+**Question**: In OCI you need to specify a _____________ when creating resources.  
+**Answer**: Compartment ID
+
+**Question**: Service Gateways provide _____________ access from VCNs to Oracle Services.  
+**Answer**: Private
+
+**Question**: Tenancy IAM metadata is bound to ___________________.  
+**Answer**: Home region
+
+**Question**: What are the two options for interconnecting VCNs within a region?  
+**Answer**: Local Peering Gateway and DRG Attachments
+
+**Question**: What does a Dynamic Routing Gateway in OCI do?  
+**Answer**: All of the above
+
+**Question**: True or false: DRGs within one OCI Region can be peered using an RPC.  
+**Answer**: True
+
+**Question**: What is the benefit of Dynamic Routing Gateway attachments?  
+**Answer**: They have their own route tables, which allow for flexibility
+
+
+
+https://videos-cloudfront-usp.jwpsrv.com/64d0f71c_e603791c946da4637bd8c45647c4618e0a470053/site/Lc4Rn1s0/media/XUXbTT11/version/XUXbTT11/manifest.ism/manifest-audio_eng=112002-video_eng=69596.m3u8
+
+## Multi-Cloud Network Architecture
+
+**Question**: What are the main pillars of the MCNA?  
+**Answer**: Cloud Core, Operations, and Access
+
+**Question**: True or false: Security and Visibility is inserted throughout the MCNA Architecture.  
+**Answer**: True
+
+**Question**: Which answer is a benefit of having a Multi-Cloud Network Architecture?  
+**Answer**: All of the Above
+
+**Question**: Customer Challenges in cloud include:  
+**Answer**: All of the above
+
+**Question**: What is the most important aspect of any multi-cloud network?  
+**Answer**: Transit
+
+**Question**: The function of the cloud operations layer includes (select all that apply)  
+**Answer**: All of the above
+
+**Question**: The Cloud Core layer of the MCNA provides:  
+**Answer**: Normalized Data plane across clouds
+
+**Question**: True or false: With MCNA, security must be configured per cloud provider to maintain consistent governance.  
+**Answer**: False
+
+**Question**: Cloud Access in MCNA provides common access for:  
+**Answer**: All of the above
+
+**Question**: The core principal of MCNA is:  
+**Answer**: a multi-cloud network and security framework for consistent deployment across clouds
+
+**Question**: What are the three columns of the MCNA?  
+**Answer**: Management, Application, Cloud Networking
+
+**Question**: What are the three layers of the MCNA?  
+**Answer**: Operations, Connectivity, and Core
+
+**Question**: True or false: Security and Visibility are inserted throughout the MCNA Architecture.  
+**Answer**: True
+
+**Question**: Which answer is a benefit of having a Multi-Cloud Network Architecture?  
+**Answer**: All of the above
+
+**Question**: What is the most important aspect of any multi-cloud network?  
+**Answer**: Transit
+
+**Question**: The function of the cloud operations layer includes (select all that apply)  
+**Answer**: All of the above
+
+**Question**: True or false: MCNA enables service chaining (i.e., insertion of firewalls).  
+**Answer**: True
+
+
+
+
+
+https://videos-cloudfront-usp.jwpsrv.com/64d0f803_60568c2c1810aefe703aa89c30902f0d9e609344/site/Lc4Rn1s0/media/W3xREpor/version/W3xREpor/manifest.ism/manifest-audio_eng=112001-video_eng=61676.m3u8
+
+## Aviatrix Platform Feature Overview - Part 1
+
+**Question**: Which best describes the Aviatrix Transit Solutions?  
+**Answer**: Built using Aviatrix IPSEC for encryption by default with option for high performance
+
+**Question**: True or false: Aviatrix transit must be built out per cloud and does not support cross-cloud communication by default.  
+**Answer**: False
+
+**Question**: What is a challenge with native encryption within the cloud?  
+**Answer**: All of the above
+
+**Question**: What are the components within the Aviatrix Platform?  
+**Answer**: All of the above
+
+**Question**: Why is cloud IPSEC limited to 1.25G?  
+**Answer**: Native solutions build tunnels across a single core only
+
+**Question**: True or false: The Aviatrix FQDN Egress Filter supports both centralized and distributed egress methods.  
+**Answer**: True
+
+**Question**: True or false: Aviatrix can extend native AWS features like Guard Duty to provide enforcement of alerts.  
+**Answer**: True
+
+**Question**: The advantage of Aviatrix Transit within the cloud is:  
+**Answer**: All of the above
+
+**Question**: With Aviatrix HPE, customers can get:  
+**Answer**: All of the above
+
+**Question**: True or false: Aviatrix can provide filtering of partner route advertisements through a BGP Approval Process.  
+**Answer**: True
+
+**Question**: An enterprise has workloads in AWS, Azure, and GCP. How many Aviatrix Controllers do they need?  
+**Answer**: 1
+
+**Question**: What is needed for workloads in two Segments to communicate with each other?  
+**Answer**: Configure a Connection Policy
+
+**Question**: True or false: Aviatrix CoPilot can be used to write Terraform scripts.  
+**Answer**: False
+
+**Question**: What is a challenge with native encryption within the cloud?  
+**Answer**: All of the above
+
+**Question**: What are the components within the Aviatrix Platform?  
+**Answer**: All of the above
+
+**Question**: Why is cloud IPsec limited to 1.25G?  
+**Answer**: Native solutions build tunnels across a single core only
+
+**Question**: True or false: The Aviatrix FQDN Egress Filter supports both centralized and distributed egress methods.  
+**Answer**: True
+
+**Question**: True or false: Aviatrix can extend native AWS features like GuardDuty to provide enforcement of alerts.  
+**Answer**: True
+
+**Question**: The advantage of Aviatrix Transit within the cloud is:  
+**Answer**: All of the above
+
+**Question**: What does Multi-Cloud Network Segmentation provide?  
+**Answer**: All of the above
+
+
+
+
+https://videos-cloudfront-usp.jwpsrv.com/64d0f989_63a7ac1fed339ca2e6e2943474ac45784c3717fd/site/Lc4Rn1s0/media/ld801cOq/version/ld801cOq/manifest.ism/manifest-audio_eng=112001-video_eng=66543.m3u8
+
+## Feature Overview - Part 2
+
+**Question**: What are some challenges with inserting firewalls in the cloud?  
+**Answer**: All of the above
+
+**Question**: How much throughput can Aviatrix achieve with Firenet?  
+**Answer**: Up to 70G
+
+**Question**: What advantages does the Aviatrix Site to Cloud offer?  
+**Answer**: All of the above
+
+**Question**: True or false: Aviatrix Firenet can orchestrate the firewall deployment, firewall routing, and VNET/VPC routing for NGFW insertion.  
+**Answer**: True
+
+**Question**: True or false: The Aviatrix User VPN solution does not allow profile based granular access control.  
+**Answer**: False
+
+**Question**: Which 3rd party integrations are available for Aviatrix User VPN?  
+**Answer**: All of the above
+
+**Question**: True or false: Aviatrix Firenet requires that customers use gateways in the spokes, as this is not supported using native constructs for transit (i.e. AWS TGW or Azure Peering).  
+**Answer**: False
+
+**Question**: Which Aviatrix feature allows customers to group VPC/VNETs with common security properties for access?  
+**Answer**: Security Domains
+
+**Question**: True or false: Aviatrix Site 2 Cloud can also be used to onboard IoT devices.  
+**Answer**: True
+
+**Question**: What problems does Aviatrix Private S3 solution solve for? (select all that apply)  
+**Answer**: Data exfiltration, Private access (RFC1918 only) to S3 buckets without the need of public addresses
+
+**Question**: What are some challenges with inserting firewalls in the cloud?  
+**Answer**: All of the above
+
+**Question**: What is the advantage of the Centralized Stateful Firewall on Aviatrix Single AZ HA?  
+**Answer**: All of the above
+
+**Question**: What advantages does the Aviatrix Site2Cloud offer?  
+**Answer**: All of the above
+
+**Question**: True or false: Aviatrix FireNet can orchestrate the firewall deployment, firewall routing, and VNet/VPC routing for NGFW insertion.  
+**Answer**: True
+
+**Question**: True or false: The Aviatrix User VPN solution does not allow profile-based granular access control.  
+**Answer**: False
+
+**Question**: Which third-party integrations are available for Aviatrix User VPN?  
+**Answer**: All of the above
+
+**Question**: True or false: With Aviatrix Transit FireNet, workloads cannot be placed in different segments AND be inspected by NGFWs without losing visibility.  
+**Answer**: False
+
+**Question**: True or false: Aviatrix can provide filtering of partner route advertisements through a BGP Approval Process.  
+**Answer**: True
+
+**Question**: Which Aviatrix feature allows customers to group VPC/VNets with common security properties for access?  
+**Answer**: Security Domains (also known as Segments)
+
+**Question**: True or false: Aviatrix Site2Cloud can also be used to onboard IoT devices.  
+**Answer**: True
+
+
+
+
+https://videos-cloudfront-usp.jwpsrv.com/64d0faac_18c93e744d2d955b9e4ac7b9036dc259cd2ab18a/site/Lc4Rn1s0/media/8eyhGiLn/version/8eyhGiLn/manifest.ism/manifest-audio_eng=112000-video_eng=91921.m3u8
+
+## UI Walkthrough
+
+
+
+
+https://videos-cloudfront-usp.jwpsrv.com/64d0fad2_d941c05c90ca9308a6d3a01881efa1279e1d4b14/site/Lc4Rn1s0/media/a3maFHeO/version/a3maFHeO/manifest.ism/manifest-audio_eng=112001-video_eng=72033.m3u8
+
+##Day 2 Operations
+
+
+## Operations, Visibility, and Troubleshooting Day 2 Operations
+
+**Question**: True or false: Aviatrix is a multi-cloud Terraform provider.  
+**Answer**: True
+
+**Question**: True or false: Aviatrix can not provide packet captures of live traffic.  
+**Answer**: False
+
+**Question**: True or false: The VPC tracker is only available for AWS.  
+**Answer**: False
+
+**Question**: What does Aviatrix use for Controller HA in AWS?  
+**Answer**: All of the above
+
+**Question**: How does Flight Path help users troubleshoot connectivity problems?  
+**Answer**: Provides a visual walk-through based on source and destination to highlight path issues
+
+**Question**: What are some operational challenges that customers face in the cloud?  
+**Answer**: All of the above
+
+**Question**: True or false: The Aviatrix controller can perform auditing of routing constructs. This ensures that no new routes have been added, that can affect end to end network correctness.  
+**Answer**: True
+
+**Question**: True or false: Common troubleshooting tasks like ping and traceroute can be run from any Aviatrix gateway.  
+**Answer**: True
+
+**Question**: What happens when the Aviatrix components require upgrades?  
+**Answer**: Upgrades are hitless
+
+**Question**: Which of the following statements is true?  
+**Answer**: Customers can spin up a single controller and on-board multiple cloud accounts for management
+
+
+
+## Feedback form 
+https://docs.google.com/forms/d/e/1FAIpQLSfG-7IbOFn6cLYcy_LWrciF_2slnbcMbOzgWZUZfAtCgyEa3A/viewform
+
+
 
 
 
